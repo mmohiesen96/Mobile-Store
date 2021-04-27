@@ -1,0 +1,127 @@
+body {
+    font-family: 'Courgette', cursive;
+    box-sizing: border-box;
+    background-color: whitesmoke;
+}
+h1{
+    font-size: 70px;
+    text-align: center;
+    font-weight: bolder;
+}
+.ui{
+    position: relative;
+    margin-top: 50px;
+    background-image: url(../img/backgournd.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+}
+fieldset{
+    background-color: RGBA(211, 211, 211, 0.548);
+    width: 100%;
+    height: 100%;
+    margin-left: 50px;
+}
+
+form {
+    width: 35%;
+    height: 250px;
+    float: left;
+    margin:150px auto;
+    font-weight: bolder;
+}
+
+.form-container {
+    display: block;
+    text-align: center;
+    margin-top: 30px;
+}
+
+input[type='submit']{
+    margin-top: 30px;
+    border-radius: 0.7rem;
+    color: whitesmoke;
+    background-color: RGB(39, 39, 39);
+    width: 170px;
+    font-weight: bolder;
+}
+
+
+input[type='text']{
+    margin-bottom: 30px;
+    border-radius: 0.7rem;
+    background-color: whitesmoke;
+    width: 170px;
+    font-weight: bolder;
+    height: 20px;
+    margin-top: 10px;
+}
+
+select{
+    border-radius: 0.6rem;
+    border-radius: 0.6rem;
+    width: 170px;
+    height: 25px;
+    font-weight: bolder;
+    margin-top: 10px;
+}
+
+.table
+{
+    float: right;
+    margin-top: 150px;
+    background-color: RGBA(211, 211, 211, 0.548);
+    width: 35%;
+    margin-right: 50px;
+    height: 250px;
+    /* overflow: scroll; */
+}
+button{
+    margin-top: 30px;
+    border-radius: 0.7rem;
+    color: whitesmoke;
+    background-color: RGB(39, 39, 39);
+    width: 170px;
+    font-weight: bolder;
+}
+
+table,th,td{
+    border: 1px solid whitesmoke;
+    text-align: center;
+}
+
+table{
+    width: 50%;
+    margin:20px auto ;
+
+}
+
+button {
+    position: absolute;
+    right: 50px;
+    top: 90px;
+}
+
+table th {
+    padding: 20px;
+    font-weight: bolder;
+    color: whitesmoke;
+    background-color: RGB(39, 39, 39);
+}
+
+table td {
+    padding: 20px;
+    font-weight: bolder;
+    color: whitesmoke;
+    background-color: RGB(78, 78, 78);
+}
+
+.footer{
+    font-weight: bolder;
+    text-align: center;
+}
+.footer p {
+    height: 50px;
+    margin-top: 20px;
+}
